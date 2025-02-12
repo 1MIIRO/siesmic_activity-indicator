@@ -84,8 +84,8 @@ def save_atom_file(atom_data, file_name):
     print(f"Atom file saved as {atom_file_path}")
 
 def process_monthly_data():
-    start_month = datetime(2020, 1, 1)
-    end_month = datetime(2025, 1, 1)
+    start_month = datetime(2024, 12,30)
+    end_month = datetime(2024, 12, 31)
 
     while start_month < end_month:
         month_start = start_month.strftime('%Y-%m-%d')
